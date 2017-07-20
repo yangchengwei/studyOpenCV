@@ -1,0 +1,3 @@
+/home/wei/testOpenCV/showImage/CMakeFiles/edit_cache.dir
+/home/wei/testOpenCV/showImage/CMakeFiles/rebuild_cache.dir
+/home/wei/testOpenCV/showImage/CMakeFiles/ShowImage.dir
