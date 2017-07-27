@@ -6,7 +6,7 @@ using namespace cv;
 int main(int argc, char* argv[]){
 
 	if (argc!=2){
-		printf("usage: test.out <image_path>\n");
+		printf("usage: ./ShowImage <image_path>\n");
 		return -1;
 	}
 

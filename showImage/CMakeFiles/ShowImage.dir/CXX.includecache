@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wei/testOpenCV/showImage/ShowImage.cpp
+/home/wei/studyOpenCV/showImage/ShowImage.cpp
 stdio.h
 -
 opencv2/opencv.hpp

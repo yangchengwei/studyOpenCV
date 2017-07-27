@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wei/testOpenCV/showImage
+CMAKE_SOURCE_DIR = /home/wei/studyOpenCV/showImage
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wei/testOpenCV/showImage
+CMAKE_BINARY_DIR = /home/wei/studyOpenCV/showImage
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wei/testOpenCV/showImage/CMakeFiles /home/wei/testOpenCV/showImage/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wei/studyOpenCV/showImage/CMakeFiles /home/wei/studyOpenCV/showImage/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wei/testOpenCV/showImage/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wei/studyOpenCV/showImage/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
