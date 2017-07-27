@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+project( photoEncryption )
+find_package( OpenCV REQUIRED )
+add_executable( photoEncryption photoEncryption.cpp )
+target_link_libraries( photoEncryption ${OpenCV_LIBS} )

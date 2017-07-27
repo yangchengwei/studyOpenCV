@@ -1,0 +1,3 @@
+/home/wei/studyOpenCV/photoEncryption/CMakeFiles/edit_cache.dir
+/home/wei/studyOpenCV/photoEncryption/CMakeFiles/rebuild_cache.dir
+/home/wei/studyOpenCV/photoEncryption/CMakeFiles/photoEncryption.dir
