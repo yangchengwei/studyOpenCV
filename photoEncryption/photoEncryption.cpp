@@ -98,7 +98,7 @@ int main(int argc, char* argv[]){
 			          + inputImage.at<uchar>(i+1,j+1) ) / 4;
 			colorCase = rand()%6;
 
-			if (rand()%256 > average) { // white
+			if (rand()%256 < average) { // white
 				setColor(encryptImage1, i, j, colorCase);
 				setColor(encryptImage2, i, j, colorCase);
 			}
