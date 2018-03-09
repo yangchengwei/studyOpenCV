@@ -1,0 +1,28 @@
+﻿已經開始建置於 2017/11/21 下午 07:10:18。
+     1>節點 2 (Build 目標) 上的專案 "D:\OpenCv_homework1\OpenCv_homework1\OpenCv_homework1.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\OpenCv_homework1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OpenCv_homework1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenCv_homework1.cpp OpenCv_homework1Dlg.cpp
+         OpenCv_homework1Dlg.cpp
+     1>c:\opencv\opencv300\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\opencv300\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\opencv300\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         OpenCv_homework1.cpp
+     1>c:\opencv\opencv300\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\opencv300\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\opencv300\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         正在產生程式碼...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0404" /IDebug\ /nologo /fo"Debug\OpenCv_homework1.res" OpenCv_homework1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenCv_homework1\Debug\OpenCv_homework1.exe" /INCREMENTAL /NOLOGO opencv_ts300.lib opencv_ts300d.lib opencv_world300.lib opencv_world300d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\OpenCv_homework1\Debug\OpenCv_homework1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenCv_homework1\Debug\OpenCv_homework1.lib" /MACHINE:X86 Debug\OpenCv_homework1.res
+         Debug\OpenCv_homework1.obj
+         Debug\OpenCv_homework1Dlg.obj
+         Debug\stdafx.obj
+     1>opencv_world300.lib(opencv_world300.dll) : fatal error LNK1112: 模組電腦類型 'x64' 與目標電腦類型 'X86' 衝突
+     1>專案 "D:\OpenCv_homework1\OpenCv_homework1\OpenCv_homework1.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:05.56
