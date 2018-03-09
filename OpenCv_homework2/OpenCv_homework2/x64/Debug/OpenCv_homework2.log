@@ -1,0 +1,28 @@
+﻿已經開始建置於 2017/12/29 下午 05:42:44。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\VSLAB\Documents\Visual Studio 2012\Projects\OpenCv_homework2\OpenCv_homework2\OpenCv_homework2.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\OpenCv_homework2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\OpenCv_homework2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt OpenCv_homework2.cpp OpenCv_homework2Dlg.cpp
+         OpenCv_homework2Dlg.cpp
+     1>d:\opencv\opencv247\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\opencv\opencv247\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>OpenCv_homework2Dlg.cpp(221): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>OpenCv_homework2Dlg.cpp(222): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>OpenCv_homework2Dlg.cpp(266): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>OpenCv_homework2Dlg.cpp(267): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+         OpenCv_homework2.cpp
+         正在產生程式碼...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0404" /Ix64\Debug\ /nologo /fo"x64\Debug\OpenCv_homework2.res" OpenCv_homework2.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\VSLAB\Documents\Visual Studio 2012\Projects\OpenCv_homework2\x64\Debug\OpenCv_homework2.exe" /INCREMENTAL /NOLOGO opencv_calib3d247d.lib opencv_contrib247d.lib opencv_core247d.lib opencv_features2d247d.lib opencv_flann247d.lib opencv_gpu247d.lib opencv_highgui247d.lib opencv_imgproc247d.lib opencv_legacy247d.lib opencv_ml247d.lib opencv_nonfree247d.lib opencv_objdetect247d.lib opencv_ocl247d.lib opencv_photo247d.lib opencv_stitching247d.lib opencv_superres247d.lib opencv_ts247d.lib opencv_video247d.lib opencv_videostab247d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\VSLAB\Documents\Visual Studio 2012\Projects\OpenCv_homework2\x64\Debug\OpenCv_homework2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\VSLAB\Documents\Visual Studio 2012\Projects\OpenCv_homework2\x64\Debug\OpenCv_homework2.lib" /MACHINE:X64 x64\Debug\OpenCv_homework2.res
+         x64\Debug\OpenCv_homework2.obj
+         x64\Debug\OpenCv_homework2Dlg.obj
+         x64\Debug\stdafx.obj
+         OpenCv_homework2.vcxproj -> C:\Users\VSLAB\Documents\Visual Studio 2012\Projects\OpenCv_homework2\x64\Debug\OpenCv_homework2.exe
+     1>專案 "C:\Users\VSLAB\Documents\Visual Studio 2012\Projects\OpenCv_homework2\OpenCv_homework2\OpenCv_homework2.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:09.31
